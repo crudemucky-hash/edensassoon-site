@@ -21,7 +21,7 @@ export default function Hero() {
     <section className="relative w-full h-screen min-h-[640px] overflow-hidden">
             <div
         ref={heroRef}
-        className="absolute inset-0 w-full h-full"
+        className="absolute inset-0 w-full h-full z-0"
       >
         <img
           src="/images/eden-hero.jpeg"
@@ -33,6 +33,7 @@ export default function Hero() {
       {/* Gradient overlay — keep this even with real photo */}
       <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-ink/60 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink/60 via-transparent to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-end pb-16 md:pb-24 px-6 md:px-16 lg:px-24">
