@@ -42,11 +42,11 @@ export default function Legacy() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
 
-        <div className={`md:col-span-6 relative w-full aspect-[4/5] overflow-hidden transition-all duration-1000 ${visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}>
+        <div className={`md:col-span-6 relative w-full aspect-[3/4] overflow-hidden transition-all duration-1000 ${visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}>
           <img
             src="/images/vidal-book.jpeg"
             alt="Vidal Sassoon autobiography inscription to Eden"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain"
           />
         </div>
 
