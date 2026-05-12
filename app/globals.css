@@ -23,8 +23,8 @@ html {
 }
 
 body {
-  background-color: var(--ink);
-  color: var(--cream);
+  background-color: var(--cream);
+  color: var(--ink);
   font-family: var(--font-jost);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,10 +58,10 @@ body::before {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--ink);
+  background: var(--cream);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--warm-gray);
+  background: var(--stone);
 }
 
 /* Fade-in animation */
@@ -106,11 +106,22 @@ body::before {
   background: var(--gold);
 }
 
-/* Section label */
+/* Section label — larger and darker for readability on cream */
 .section-label {
   font-family: var(--font-jost);
-  font-size: 0.65rem;
-  letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #8a6f3e;
+}
+
+/* Section label light variant — for dark background sections */
+.section-label-light {
+  font-family: var(--font-jost);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--gold);
 }

@@ -24,8 +24,8 @@ export default function Nav() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
-            ? "bg-ink/90 backdrop-blur-sm border-b border-white/5"
-            : "bg-transparent"
+            ? "bg-[#1a1612]/95 backdrop-blur-sm border-b border-white/5"
+            : "bg-[#1a1612]/60 backdrop-blur-sm"
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
@@ -43,7 +43,7 @@ export default function Nav() {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="font-jost text-xs tracking-widest2 uppercase text-stone hover:text-cream transition-colors duration-300"
+                  className="font-jost text-sm tracking-widest uppercase text-cream/80 hover:text-gold transition-colors duration-300"
                 >
                   {link.label}
                 </a>
@@ -57,28 +57,16 @@ export default function Nav() {
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
-            <span
-              className={`block w-6 h-px bg-cream transition-all duration-300 ${
-                menuOpen ? "rotate-45 translate-y-2" : ""
-              }`}
-            />
-            <span
-              className={`block w-6 h-px bg-cream transition-all duration-300 ${
-                menuOpen ? "opacity-0" : ""
-              }`}
-            />
-            <span
-              className={`block w-6 h-px bg-cream transition-all duration-300 ${
-                menuOpen ? "-rotate-45 -translate-y-2" : ""
-              }`}
-            />
+            <span className={`block w-6 h-px bg-cream transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+            <span className={`block w-6 h-px bg-cream transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+            <span className={`block w-6 h-px bg-cream transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
           </button>
         </div>
       </nav>
 
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 z-40 bg-ink flex flex-col items-center justify-center transition-all duration-500 md:hidden ${
+        className={`fixed inset-0 z-40 bg-[#1a1612] flex flex-col items-center justify-center transition-all duration-500 md:hidden ${
           menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
