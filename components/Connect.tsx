@@ -70,7 +70,7 @@ export default function Connect() {
             </div>
 
             <p className="font-jost text-warm-gray text-lg md:text-xl leading-relaxed max-w-sm">
-              For press, partnerships, speaking engagements, or the kind of conversation worth having — reach out directly.
+              Wanna connect with Eden? Send her a message here and she'll get back to you.
             </p>
 
             <ContactForm />

@@ -51,7 +51,7 @@ export default function About() {
           </p>
 
           <p className="font-jost text-warm-gray text-lg md:text-xl leading-relaxed max-w-2xl">
-            I grew up in a world where beauty mattered. My father changed beauty. My mother embodied it. And I was born into the phrase: <em className="text-ink font-normal">&ldquo;If you don&apos;t look good, we don&apos;t look good.&rdquo;</em>
+            I grew up in a world where beauty mattered. My father, Vidal, changed beauty. My mother, Beverly, embodied it. And I was born into the phrase: <em className="text-ink font-normal">&ldquo;If you don&apos;t look good, we don&apos;t look good.&rdquo;</em>
           </p>
 
           <p className="font-jost text-warm-gray text-lg md:text-xl leading-relaxed max-w-2xl">

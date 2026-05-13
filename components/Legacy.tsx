@@ -65,6 +65,10 @@ export default function Legacy() {
             </div>
 
             <p className="font-jost text-warm-gray text-lg md:text-xl leading-relaxed">
+              Her mother, Beverly Adams, was a Canadian actress who gave up Hollywood to raise four children — and embodied beauty in a way that was both effortless and exacting.
+            </p>
+
+            <p className="font-jost text-warm-gray text-lg md:text-xl leading-relaxed">
               Vidal Sassoon taught Eden that beauty is a form of truth-telling. That discipline and generosity aren&apos;t opposites. That the outside matters — but only as a reflection of what&apos;s happening within. She carries that with her. Not as a brand. As a belief.
             </p>
 
